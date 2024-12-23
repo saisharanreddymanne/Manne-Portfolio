@@ -402,6 +402,39 @@ section {
     }
 }
 
+/* Certificates */
+
+#certifications {
+    padding: 2rem 0;
+}
+
+.certifications-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.certifications-list li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.certifications-list a {
+    font-weight: bold;
+    color: #007BFF; /* Change this to match your theme */
+    text-decoration: none;
+}
+
+.certifications-list a:hover {
+    text-decoration: underline;
+}
+
+.certifications-list span {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+}
 
   
   /* CONTACT */
