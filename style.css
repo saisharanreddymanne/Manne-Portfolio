@@ -436,6 +436,42 @@ section {
     color: #555;
 }
 
+/* Back to Top Button Style */
+#backToTop {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 1px solid black; /* Border to match the text */
+    border-radius: 50px; /* Rounded corners */
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    z-index: 1000; /* Always on top */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect */
+  #backToTop:hover {
+    background-color: black; /* Black background on hover */
+    color: white; /* White text on hover */
+    border-color: white; /* Match border with text */
+  }
+  
+  /* Add a smooth pulsing animation for visibility */
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+
   
   /* CONTACT */
   
